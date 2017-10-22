@@ -16,16 +16,3 @@ def test_replace_all(n, m, o, result):
     """Test to verify function works."""
     from replace_all_items import replace_all
     assert replace_all(n, m, o) == result
-
-
-# tests = (
-#     (([], 1, 2), []),
-#     (([1, 2, 2], 1, 2), [2, 2, 2]),
-#     (([1, 1, 2], 1, 2), [2, 2, 2]),
-#     (([1, 2, 1, 2, 3], 1, 2), [2, 2, 2, 2, 3]),
-#     (("Hello World", 'o', '0'), "Hell0 W0rld"),
-# )
-
-# for t in tests:
-#     inp, exp = t
-#     test.assert_equals(replace_all(*inp), exp)
