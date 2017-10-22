@@ -4,7 +4,10 @@
 import pytest
 
 
-MONKEY_COUNT_TABLE = [[2, [1, 2]], [4, [1, 2, 3, 4]], [3, [1, 2, 3]], [5, [1, 2, 3, 4, 5]]]
+MONKEY_COUNT_TABLE = [[2, [1, 2]],
+                      [4, [1, 2, 3, 4]],
+                      [3, [1, 2, 3]],
+                      [5, [1, 2, 3, 4, 5]]]
 
 
 @pytest.mark.parametrize("n, result", MONKEY_COUNT_TABLE)

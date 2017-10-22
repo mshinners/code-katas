@@ -1,4 +1,4 @@
-"""Kata: Count the Monkeys.
+"""Kata 8: Count the Monkeys.
 
 Nestorfish, VadimPopov, christoph531, EricDalrymple91, AcesOfGlory, LuLuGa (plus 329 more warriors)
 
